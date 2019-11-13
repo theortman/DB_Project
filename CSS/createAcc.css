@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(101, 236, 39);
+}
+
+
+.personal_information input{
+   margin-left: 9em;
+}
+
+.personal_information label{
+    position: absolute;
+    margin-left: 1px;
+    color: rgb(59, 2, 2);
+}
+
+.personal_information select{
+    position: relative;
+    margin-left: 9em;
+}
+
+.payment_method{
+    margin-top: 3em;
+    position: relative;
+    margin-left: 25em;
+    margin-top: -36.5em;
+
+}
+.payment_method input {
+    margin-left: 12em;
+}
+.payment_method label{
+    position: absolute;
+    margin-left: 1px;
+}
+#exp-month{
+    position: relative;
+    margin-left: 1px;
+}
+#month{
+    position: relative;
+    margin-left: 4.1em;
+}
+
+#exp-year{
+    position: relative;
+    margin-left: 20px;
+}
+#year{
+    position: relative;
+    margin-left: 5px;
+}
+
+.submit{
+    margin-top: 3em;
+    position: relative;
+    margin-left: 30em;
+    margin-top: 15em;
+
+}
+

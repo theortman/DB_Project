@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "CSS/createAcc.css"/>
+</head>
+<body>
+    <div class = "personal_information">
+        <h1>New Account</h1>
+        <form>
+    
+            <h2>Personal Information</h2>
+            <br>
+            <label id = "fn">First Name</label><input type="text" name = "First Name">
+            <br>
+            <br>
+            <label id = "ln">Middle Initial</label><input type="text" name = "Middle Initial">
+            <br>
+            <br>
+            <label id = "ln">Last Name</label><input type="text" name = "Last Name">
+            <br>
+            <br>
+            <label id = "un">User Name</label><input type="text" name = "User Name">
+            <br>
+            <br>
+            <label id = "gender"></label><select name = "Gender">
+                    <option value = "male">Male</option>
+                    <option value = "female">Female</option>
+                    <option value = "x">X</option>
+            </select>
+            <br>
+            <br>
+            <label id = "dob">Date of Birth</label> <input type="date" name = "Date of Birth">
+            <br>
+            <br>
+            <label id = "email">Email</label><input type="email" name = "Email" placeholder = "j.smith@gmail.com">
+            <br>
+            <br>
+            <label id = "phone">Phone Number</label><input type="tel" name = "Phone Number" placeholder = "555-258-9889">
+            <br>
+            <br>
+            <label id = "sa">Street Address</label><input type="text" name = "Street Address">
+            <br>
+            <br>
+            <label>City</label><input type="text" name = "City">
+            <br>
+            <br>
+            <label>State</label><input type="text" name = "State">
+            <br>
+            <br>
+            <label>Zip Code</label><input type="text" name = "zip">
+            <br>
+            <br>
+            <label>Password</label><input type="password" name = "password">
+            <br>
+            <br>
+            <label>Confirm</label><input type="password" name = "confirm password">
+        
+        </form>
+    </div>  
+
+    <div class = "payment_method">
+        <form>
+       
+            <h2>Card Information</h2>
+            <br>
+            <br>
+            <label> Name on the Card</label><input type = "text" name = "Card Name" placeholder = "name as displyed on card">
+            <br>
+            <br>
+            <label>Card Number</label><input type = "text" name = "Card Number" placeholder = xxxx-xxxx-xxxx-xxxx>
+            <br>
+            <br>
+            <label> CV</label><input type = "text" name = "CV" placeholder = xxx>
+            <br>
+            <br>
+            <label id = "exp-month"></label>Experation Date<select id = "month" class="1-12"></select>
+            <label id = "exp-year"></label><select id = "year" class="2019-2030"></select>
+            <br>  
+            <br>
+        </form>
+    </div>
+    <div class = "submit">
+        <input type = "submit" name = "" value = "submit">
+    </div>
+
+    <script src = "js/jquery-3.4.1.js" ></script>
+    <script src = "js/crearteAcc.js" ></script>
+
+</body>
+</html>

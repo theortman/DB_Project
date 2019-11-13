@@ -1,0 +1,6 @@
+
+using abutton generate form(Add HTML form on button click)
+<input type="button" id="testButton" value="Test" />
+$("#testButton").click(function() {
+  $("#buyerForm").clone().appendTo("#wrapper");
+});
