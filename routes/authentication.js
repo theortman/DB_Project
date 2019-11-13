@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 const router = require('express').Router();
 const User = require('../model/user');
 const{register_validation,login_validation} = require('../validation');

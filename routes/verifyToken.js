@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 const jwt = require('jsonwebtoken');
 
 function auth(req, res, next){

@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 const mongoos = require('mongoose');
 
 const userSchema = mongoos.Schema({
